@@ -31,6 +31,16 @@ export default {
     PopularShowComponent,
     UpcomingShows
   },
+  head() {
+    return {
+      title: "Popular shows in our list",
+      meta: [{
+        hid: "description",
+        name: "description",
+        content: "Get to know about all your favourite shows/ popular shows ",
+      }, ],
+    };
+  },
   data() {
     return {
       upcomingShows: false,

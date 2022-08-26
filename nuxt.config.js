@@ -18,7 +18,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: ""
+        content: "Watch all your favourite shows movies",
       },
       {
         name: "format-detection",

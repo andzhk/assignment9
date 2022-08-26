@@ -49,6 +49,16 @@ import image3 from "../../assets/images/img6.avif";
 
 export default {
   name: "faqs-page",
+  head() {
+    return {
+      title: "Frequently Asked Questions",
+      meta: [{
+        hid: "description",
+        name: "description",
+        content: "frequently asked questions from our customers ",
+      }, ],
+    };
+  },
   data() {
     return {
       faqData: [{
